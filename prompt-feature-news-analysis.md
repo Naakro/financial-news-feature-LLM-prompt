@@ -27,7 +27,27 @@ Suggest any additional dimensions if applicable."
 
 ---
 
+## Prompt 3 – Identifying Competitor Applications with Financial News Features
+
+Please recommend 5 global and 5 Indonesian personal finance applications available on the Google Play Store or Apple App Store that:
+
+- Include financial news, market updates, or economic insights as part of their features (either explicitly or implicitly),
+- Can be categorized under budgeting, investing, or digital banking apps,
+- Are popular (e.g., downloaded at least 1 million times or have a significant user base),
+- Provide relevant value for users looking to stay informed about economic or financial topics through their app.
+
+Please format the result in a table with the following columns:
+
+- App Name  
+- Region (Global or Indonesia)  
+- Financial News Feature (Yes/No)  
+- Key News Functionality  
+- Estimated Installs (if available)
+
 ## Notes
 
 These prompts were used to guide LLM-driven exploration and validation of design dimensions for financial news features. The resulting insights supported the feature analysis and development of the *Atur Duit* application.
 For reproducibility and citation purposes, this file is published in a public GitHub repository.
+
+
+
