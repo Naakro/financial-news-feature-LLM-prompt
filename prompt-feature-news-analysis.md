@@ -44,10 +44,26 @@ Please format the result in a table with the following columns:
 - Key News Functionality  
 - Estimated Installs (if available)
 
+## Prompt 4 – Feature Decomposition into Sub-Features
+
+Feature
+{feature}: {feature_description}
+
+Given the mobile app feature above, please refine it to a list of subfeatures.
+Ensure that the number of sub-features is {n}.
+The output should be a list of JSON formatted objects like this:
+[{ "sub-feature": sub-feature, "description": description }]
+
+### Prompt
+
+
+
 ## Notes
 
 These prompts were used to guide LLM-driven exploration and validation of design dimensions for financial news features. The resulting insights supported the feature analysis and development of the *Atur Duit* application.
 For reproducibility and citation purposes, this file is published in a public GitHub repository.
 
-
+---
+**Author:** Naufal Akmal Rosaidia  
+**Date:** 2025 
 
